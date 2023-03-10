@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute To Bruce Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navmenu">
+                <li><a href="#Le">Legend</a></li>
+                <li><a href="#Li">Life</a></li>
+                <li><a href="#W">Works</a></li>
+                <li><a href="#Q">Quotes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="legend" id="Le">
+        <p class="legendText" style="margin-top: 10%; 
+        margin-left: 50%;">Tribute to</p>
+        <img src="headerSign.png" width="400px" />
+        <p class="legendText" style="margin-top: 0; 
+        margin-left: 80%;">1940-1973</p>
+    </section>
+
+    <section class="life" id="Li">
+        <div class="life1">
+            <h1 style=" font-size: 50px; color: white; margin: 60px 0px 0px 50px  ;">Life</h1>
+            <div style="height:2px; margin: 0px 0px 30px 50px; background-color: white; width: 20%;"></div>
+            <div class="relText">
+                <div class="relTextButton">
+                    <img src="slider-arrowl.png" id="left" onclick="slide('left')">
+                </div>
+                <div class="relTextPara">
+                    <p id="slideText"> Bruce Jun Fan Lee (Lee Siu Loong) was born in 1940 in San Francisco, CA while his
+                        parents were on tour with the Chinese Opera. Ultimately raised in Hong Kong, Bruce Lee was a
+                        child actor appearing in more than 20 films. At the age of 13, Bruce took up the study of wing
+                        chun gung fu under renowned wing chun master, Yip Man
+                    </p>
+                </div>
+                <div class="relTextButton">
+                    <img src="slider-arrowr.png" id="right" onclick="slide('right')">
+                </div>
+            </div>
+        </div>
+        <div class="life2">
+            <div class="displayImgs">
+                <div class="lifeImg" id="lifeimg"></div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <section class="works" id="W">
+        <h1 style=" font-size: 50px; color: white; margin: 60px 0px 0px 50px  ;">Works</h1>
+
+        <div style="height:2px; margin: 0px 0px 30px 50px; background-color: white; width: 20%;"></div>
+        <div class="moviePosters">
+            <div class="card"><img src="poster1.jpeg" height="250" width="200">
+                <h4>The Way of the Dragon</h4>
+                <p>1972</p>
+            </div>
+            <div class="card"><img src="poster4.jpeg" height="250" width="200">
+                <h4>Fist of Fury</h4>
+                <p>1972</p>
+            </div>
+            <div class="card"><img src="poster2.jpeg" height="250" width="200">
+                <h4>Enter the Dragon</h4>
+                <p>1973</p>
+            </div>
+            <div class="card"><img src="poster3.jpeg" height="250" width="200">
+                <h4>Game of Death</h4>
+                <p>1978</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="quotes" id="Q">
+        <h1 style=" font-size: 50px; color: white; margin: 60px 0px 0px 50px  ;">Quotes</h1>
+        <div style="height:2px; margin: 0px 0px 30px 50px; background-color: white; width: 20%;"></div>
+        <div class="blQuotes" style="margin: auto;color:white; width: 80%;">
+            <div class="quoteText">"Be water, my friend."</div>
+            <div class="quoteText">
+                “I'm not in this world to live up to your expectations and you're not in this world to live up to mine.”
+            </div>
+            <div class="quoteText">“Do not pray for an easy life, pray for the strength to endure a difficult one.”
+
+            </div>
+            <div class="quoteText"> “Don’t fear failure. Not failure, but low aim, is the crime. In great attempts it is
+                glorious even to fail.”</div>
+            <div class="quoteText"> “I fear not the man who has practiced 10,000 kicks once, but I fear the man who has
+                practiced one kick 10,000 times.”</div>
+
+        </div>
+    </section>
+    <footer>
+        <p>Made with <i class="fa fa-heart"></i> by Manpreet.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
